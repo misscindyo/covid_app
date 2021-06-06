@@ -1,0 +1,3 @@
+[submodule "portfolio/portfolio/javascript-projects"]
+	path = portfolio/portfolio/javascript-projects
+	url = https://github.com/N-adu/javascript-projects.git
