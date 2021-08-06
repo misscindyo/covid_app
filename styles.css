@@ -117,6 +117,19 @@ a.card-link {
   color: #fff;
 }
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #0d5957;
+  border-color: #0d5957;
+}
+
 /* media query for larger screen size since this is a mobile first approach */
 @media screen and (min-width: 768px) {
 }
