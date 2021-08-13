@@ -94,6 +94,7 @@ section-1 > .container {
 
 .card.text-dark.bg-light.mb-3 {
   color: #fff !important;
+  max-width: 32%;
 }
 
 i.fas.fa-search,

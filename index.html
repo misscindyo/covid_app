@@ -108,6 +108,10 @@
         </div>
 
     </div>
+    <section class="facts">
+      <h2 class="cases">No. of Cases in UK Today</h2>
+      <h3 id="cases"></h3>
+    </section>
 
     <section>
       <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -119,7 +123,7 @@
           </h2>
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
-              <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+              <div class="card text-dark bg-light mb-3">
                 <i class="fas fa-search"></i>  
                 <div class="card-header">Symptom checker</div>
                 <div class="card-body">
@@ -128,7 +132,7 @@
                     <a href="#" class="card-link">More</a>
                 </div>
               </div>
-              <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+              <div class="card text-dark bg-light mb-3">
                 <i class="fas fa-vial"></i>  
                 <div class="card-header">Testing centres</div>
                   <div class="card-body">
@@ -137,7 +141,7 @@
                       <a href="#" class="card-link">More</a>
                   </div>
               </div>
-              <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+              <div class="card text-dark bg-light mb-3">
                 <i class="fas fa-house-user"></i>
                 <div class="card-header">Self isolation tips</div>
                 <div class="card-body">
@@ -488,7 +492,8 @@
         <div class="container">
             <p>
                 Copyright &copy; Group 4
-                <span id="date">. all rights reserved.</span>
+                <!-- <span id="date">. all rights reserved.</span> -->
+                <script>document.write(new Date().getFullYear())</script>. All rights reserved.</span>
             </p>
         </div>
         <!-- Back to top button -->
@@ -504,7 +509,6 @@
         </div>
     </footer>
     
-    <script type="text/javascript" src="script.js" async defer></script>
-    
+    <script type="text/javascript" src="script.js"></script>
     </body>
 </html>

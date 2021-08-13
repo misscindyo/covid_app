@@ -23,3 +23,19 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// Copyright
+// let copy = document.getElementById("date");
+
+// document.write(new Date().getFullYear())
+
+// Covid cases API
+function getCases(){
+  fetch('https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=nation;areaName=england&structure={"date":"date","newCases":"newCasesByPublishDate"}')
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data.data[0])
+    document.getElementById('cases').innerHTML = `${"Date: " + data.data[0].date + " " + "Cases: " + data.data[0].newCases}`;
+  });
+}
+getCases();
